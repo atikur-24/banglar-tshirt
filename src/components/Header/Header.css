@@ -1,0 +1,25 @@
+.header-container {
+    background: #58595b;
+    color: #EBEBEB;
+    padding: 1.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#brand-title {
+    color: #f7941E;
+    font-style: italic;
+}
+
+nav a {
+    margin-left: 2em;
+    text-decoration: none;
+    color: #EBEBEB;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #f7941E;
+    text-decoration: underline;
+}
