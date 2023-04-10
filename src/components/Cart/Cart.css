@@ -1,0 +1,18 @@
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.x-btn {
+    background-color: coral;
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 700;
+}
+.x-btn:focus, .x-btn:focus-visible {
+    background-color: crimson;
+    outline: 1px auto -webkit-focus-ring-color;
+}
