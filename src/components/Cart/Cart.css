@@ -12,7 +12,7 @@
     border-radius: 50%;
     font-weight: 700;
 }
-.x-btn:focus, .x-btn:focus-visible {
+.x-btn:hover {
     background-color: crimson;
     outline: 1px auto -webkit-focus-ring-color;
 }
