@@ -6,6 +6,9 @@ const Cart = ({ cart, handlerRemoveFromCart }) => {
     <div>
       <h2>Order Summary {cart.length} </h2>
       <hr />
+      {
+        cart.length <= 0 && <h5>You BUY some Products</h5>
+      }
       {cart.map((ts, idx) => (
           <div className="order" key={idx}>
             <p>{ts.name}</p>
