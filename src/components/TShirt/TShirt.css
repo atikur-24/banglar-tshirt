@@ -1,0 +1,39 @@
+.t-shirt {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.t-shirt img {
+    height: 220px;
+}
+
+#ts-name {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.price {
+    color: #f7941E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buy-btn {
+    background-color: #f7941E;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    cursor: pointer;
+    background-color: #e28007;
+}
+
+.buy-btn:focus {
+    outline: 1px auto -webkit-focus-ring-color;
+}
